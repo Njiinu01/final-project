@@ -2,7 +2,6 @@
 require_once __DIR__ . '/../inc/db.php';
 require_once __DIR__ . '/../inc/header.php';
 
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 $fullname = trim($_POST['fullname']);
 $email = trim($_POST['email']);
